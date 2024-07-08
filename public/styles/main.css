@@ -1,0 +1,135 @@
+.main {
+    background-color: rgb(90, 114, 160);
+    border: 5px solid rgb(131, 180, 255);
+}
+
+.complete-bg {
+    background-color: rgb(131, 180, 255);
+}
+
+.white-text {
+    color: rgb(253, 255, 226);
+}
+
+.background-image {
+    background-image: url('../images/blue-clouds-day-fluffy-53594.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.me {
+    width: 50%; /* Make the image take up the full width of the container */
+    height: auto; /* Maintain the image's aspect ratio */
+}
+
+.date {
+    font-style: italic;
+}
+
+.styled-hr {
+    background-color: rgb(253, 255, 226);
+    height: 2px;
+}
+
+.title {
+    font-size: 2rem;
+    /* transition: .3s ease; */
+    transform-origin: center center;
+}
+
+.title:hover {
+    transform: scale(1.01);
+}
+
+.view-title {
+    font-size: 3rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    /* transition: .3s ease; */
+}
+
+.remove-styling {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent element */
+}
+
+.dropdown-pos {
+    position: absolute;
+    bottom: 11.5rem;
+    left: 58rem;
+}
+
+.btn-secondary {
+    background-color: rgb(131, 180, 255) !important;
+    border-color: rgb(253, 255, 226) !important;
+    border-width: 2px !important;
+}
+
+.form-control {
+    background-color: rgb(131, 180, 255) !important;
+    border-color: rgb(253, 255, 226) !important;
+    border-width: 2px !important;
+}
+
+.btn-primary {
+    background-color: rgb(131, 180, 255) !important;
+    border-color: rgb(253, 255, 226) !important;
+    border-width: 2px !important;
+}
+
+.form-control::placeholder {
+    color: rgb(253, 255, 226) !important;
+}
+
+textarea.form-control {
+    color: rgb(253, 255, 226) !important;
+}
+
+textarea.form-control {
+    color: rgb(253, 255, 226) !important;
+}
+
+input.form-control {
+    color: rgb(253, 255, 226) !important;
+}
+
+.dropdown-menu {
+    background-color: rgb(131, 180, 255) !important;
+    border-color: rgb(253, 255, 226) !important;
+    border-width: 2px !important;
+    
+}
+
+.dropdown-item {
+    color: rgb(253, 255, 226) !important;
+}
+
+.sticky-div {
+    position: sticky;
+    top: 65px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.back-arrow {
+    fill: white !important;
+}
+
+h2 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.divider {
+    background-color: rgb(131, 180, 255);
+    height: 3.5rem;
+}
